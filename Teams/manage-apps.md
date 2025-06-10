@@ -150,6 +150,7 @@ Under **Third-party apps**, turn off or turn on these settings to control access
     
       * **All apps available**: Users can access all Microsoft 365 apps that are available to them.
       * **Some apps available**: Users can access only selected apps, admins can customize app availability based on specific conditions. Select **Some apps available** > **Customize availability** to select conditions. 
+        
       * **Apps not available**: Users can access only the apps that are individually managed and explicitly allowed. 
 
     > [!NOTE]
@@ -157,7 +158,9 @@ Under **Third-party apps**, turn off or turn on these settings to control access
 
     * **Allow any new third-party apps published to the store by default**: This setting controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
-1. Under **Custom apps**, turn off or turn on **Let users install and use available apps by default** option. This setting controls whether users can install and use the custom apps that you make available to them. To learn more about custom apps, see [how to manage custom apps](teams-custom-app-policies-and-settings.md).
+### Custom apps
+
+Under **Custom apps**, turn off or turn on **Let users install and use available apps by default** option. This setting controls whether users can install and use the custom apps that you make available to them. To learn more about custom apps, see [how to manage custom apps](teams-custom-app-policies-and-settings.md).
 
 1. Select **Save**. The settings take effect after a few hours.
 
