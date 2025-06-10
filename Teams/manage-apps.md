@@ -152,8 +152,8 @@ Under **Third-party apps**, turn off or turn on these settings to control access
       * **Some apps available**: Users can access only selected apps, admins can customize app availability based on specific conditions. Select **Some apps available** > **Customize availability** to select conditions. 
       * **Apps not available**: Users can access only the apps that are individually managed and explicitly allowed. 
 
-      > [!NOTE]
-        > When **Allow third-party apps** is off, [outgoing webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) are still enabled for all users, but you can control them at the user level by allowing or blocking the Outgoing Webhook app through [app permission policies](teams-app-permission-policies.md).
+    > [!NOTE]
+    > When **Allow third-party apps** is off, [outgoing webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) are still enabled for all users, but you can control them at the user level by allowing or blocking the Outgoing Webhook app through [app permission policies](teams-app-permission-policies.md).
 
     * **Allow any new third-party apps published to the store by default**: This setting controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
