@@ -138,12 +138,11 @@ Use org-wide app settings to control whether users with an [F license](https://w
 
 1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps in your organization:
 
-1. **Allow third-party apps**, this setting controls whether users can use third-party apps.  If you turn off this setting, you can still manage access to certified apps by selecting one of the app availability options **All apps available**, **Some apps available**, and **Apps not available by default**. 
+    * **Allow third-party apps**, this setting controls whether users can use third-party apps.  If you turn off this setting, you can still manage access to certified apps by selecting one of the app availability options **All apps available**, **Some apps available**, and **Apps not available by default**. 
 
-    * **All apps available**: Users can access all Microsoft 365 apps that are available to them.
-    * **Some apps available**: Users can access only selected apps, admins can customize app availability based on specific conditions.
-    
-    * **Apps not available**: Users can access only the apps that are individually managed and explicitly allowed. 
+        * **All apps available**: Users can access all Microsoft 365 apps that are available to them.
+        * **Some apps available**: Users can access only selected apps, admins can customize app availability based on specific conditions. Select **Some apps available** > **Customize availability** to select conditions. 
+        * **Apps not available**: Users can access only the apps that are individually managed and explicitly allowed. 
 
         > [!NOTE]
         > When **Allow third-party apps** is off, [outgoing webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) are still enabled for all users, but you can control them at the user level by allowing or blocking the Outgoing Webhook app through [app permission policies](teams-app-permission-policies.md).
